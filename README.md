@@ -14,7 +14,7 @@ A simple and interactive web app built with Streamlit that predicts the win prob
 
 ## ⚙️ How It Works
 
-The app uses a machine learning model trained on IPL match data to calculate real-time win probabilities. Based on:
+The app uses a machine learning model trained on historical IPL data (2008–2024) to predict real-time win probabilities. The prediction is based on match situation including:
 
 - Batting and bowling teams
 - Host city
@@ -27,7 +27,10 @@ It calculates:
 - Current Run Rate (CRR)
 - Required Run Rate (RRR)
 
-These features are fed into a trained ML pipeline (`pipe.pkl`) to predict the chances of each team winning.
+These features are then fed into a trained **Random Forest Classifier** — a popular ensemble learning algorithm used for classification tasks.
+
+🧠 **Model Used:**  
+We used the **Random Forest Classifier**, which builds multiple decision trees and merges their outputs to improve prediction accuracy and control overfitting. It is ideal for this problem due to its robustness with both numerical and categorical data.
 
 ---
 
