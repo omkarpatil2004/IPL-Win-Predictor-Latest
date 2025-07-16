@@ -84,8 +84,7 @@ We used the **Random Forest Classifier**, which builds multiple decision trees a
 
 ## 🌐 Live Demo (optional)
 
-> Will be added after deployment on [Streamlit Cloud](https://ipl-win-predictor-omkarpatil2004.streamlit.app)
-
+> Will be added after deployment on [Streamlit Cloud](https://ipl-win-predictor-latest-omkarpatil2004.streamlit.app)
 ---
 
 ## 👤 Author
