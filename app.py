@@ -69,6 +69,6 @@ if st.button('Predict Probability'):
     win = result[0][1]
 
     # Show results
-    st.markdown("### 🧮 Win Probability")
+    st.markdown("### 📊 Win Probability")
     st.success(f"{batting_team} 🔵 — **{round(win * 100)}%**")
     st.error(f"{bowling_team} 🔴 — **{round(loss * 100)}%**")
