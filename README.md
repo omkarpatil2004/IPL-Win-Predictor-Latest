@@ -5,7 +5,7 @@ A simple and interactive web app built with Streamlit that predicts the win prob
 📊 Note: The model is trained on historical IPL data from 2008 to 2019, ensuring reliable predictions based on real match trends and outcomes.
 
 ---
-## 🌐 Live Demo (optional)
+## 🌐 Live Demo 
 
 > [Streamlit Cloud](https://ipl-win-predictor-latest-omkarpatil2004.streamlit.app)
 
